@@ -29,4 +29,4 @@ uv run pytest
 
 ## Disclaimer
 
-For learning only. Not audited, and not affiliated with Tether.
+For learning purposes only. Not audited, and not affiliated with Tether.
