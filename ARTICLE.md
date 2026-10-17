@@ -1,6 +1,6 @@
 # How USDT Actually Works: From Treasury Bills to Smart Contracts
 
-USDT is one of the largest stablecoins in the world, and most people who use it every day have no idea how it works. In this article we'll look at it from both ends: the business model that keeps it pegged to the dollar, and the smart contract that makes it move onchain. By the end, you'll have built your own version of USDT in Vyper.
+USDT is one of the largest stablecoins in the world, and most people who use it every day have no idea how it works. In this article, we'll look at it from both ends: the business model that keeps it pegged to the dollar, and the smart contract that makes it move onchain. By the end, you'll have built your own version of USDT in Vyper.
 
 ## Tether vs. USDT
 
@@ -703,7 +703,7 @@ That's the whole story in code. The token is only worth a dollar because Tether 
 You now have a working version of it. Some ideas to take it further:
 
 - Add the transfer fee (`basisPointsRate` and `maximumFee`) from the original contract.
-- Replace the single owner with multiple roles, for example separate minter, pauser and blacklister addresses, the way newer stablecoins do.
+- Replace the single owner with multiple roles, for example, separate minter, pauser, and blacklister addresses, the way newer stablecoins do.
 - Deploy it to a testnet and add it to your wallet.
 
 Just don't expect it to hold its peg without a hundred billion dollars in Treasury bills behind it.
